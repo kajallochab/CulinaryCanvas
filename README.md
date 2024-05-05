@@ -68,9 +68,9 @@ The dataset contains a CSV file and a zipped folder, consisting of 13,582 images
 
 The CSV file, Food Ingredients and Recipe Dataset with Image Name Mapping, contains 5 columns, as follows:
 
-    - Title: Represents the Title of the Food Dish.
-    - Ingredients: Contains the ingredients as they were scraped from the website.
-    - Instructions: Has the recipe instructions to be followed to recreate the dish.
-    - Image_Name: Has the name of the image as stored in the Food Images zipped folder.
-    - Cleaned_Ingredients: Contains the ingredients after being processed and cleaned.
+- Title: Represents the Title of the Food Dish.
+- Ingredients: Contains the ingredients as they were scraped from the website.
+- Instructions: Has the recipe instructions to be followed to recreate the dish.
+- Image_Name: Has the name of the image as stored in the Food Images zipped folder.
+- Cleaned_Ingredients: Contains the ingredients after being processed and cleaned.
     
