@@ -16,7 +16,7 @@ Culinary Canvas is an information retrieval system course project aimed at provi
 4. Conclusions and Future Work: The README concludes with a summary of project outcomes, highlighting the effectiveness of leveraging original recipe text and proposing future improvements such as incorporating GloVe embeddings, LDA2Vec topic extraction, and web scraping for dynamic recipe updates.
 
 
-### Workflow
+## Workflow
 
 - Data Preprocessing: Load the dataset, handle missing values, and remove irrelevant rows.
 
@@ -27,7 +27,7 @@ Culinary Canvas is an information retrieval system course project aimed at provi
 - Testing: Test the search algorithm with various queries and ranked query ingredients to ensure functionality.
 
 
-### Future Work
+## Future Work
 
 Several enhancements and future directions have been identified for the Culinary Canvas project:
 
@@ -42,7 +42,7 @@ Exploring dense word embeddings and semantic similarity measures to capture nuan
 Expanding the scope of keywords associated with each topic to ensure comprehensive search functionality.
 
 
-### Getting Started
+## Getting Started
 
 To get started with Culinary Canvas, follow these steps:
 
@@ -52,15 +52,17 @@ To get started with Culinary Canvas, follow these steps:
 4. Test the algorithm with various query inputs to evaluate its performance.
 
 
-### Contributors
-    [Your Name]
-    [Collaborator 1]
-    [Collaborator 2]
+## Contributors
+- Kajal Lochab
+- Vanshil Patel
+- Devam Patel
 
-### License
+## License
+
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-### Dataset
+## Dataset
+
 Dataset used can be found on kaggle under the title: Food Ingredients and Recipes Dataset with Images
 Link: https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images
 
