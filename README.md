@@ -5,30 +5,30 @@ Culinary Canvas is an information retrieval system course project aimed at provi
 
 
 ### How it Works
-    Data Preprocessing: The project begins by loading a dataset containing food ingredients and recipes. Missing values are handled, and rows containing only punctuation or numbers are dropped. Recipes with insufficient instructions are also removed.
+Data Preprocessing: The project begins by loading a dataset containing food ingredients and recipes. Missing values are handled, and rows containing only punctuation or numbers are dropped. Recipes with insufficient instructions are also removed.
 
-    Topic Modeling: LDA and NNMF algorithms are applied to extract topics from the dataset. Topic distributions for documents and words are generated, and keyword extraction is performed using TextRank.
+Topic Modeling: LDA and NNMF algorithms are applied to extract topics from the dataset. Topic distributions for documents and words are generated, and keyword extraction is performed using TextRank.
 
-    Querying Algorithm: The system provides a search algorithm that calculates similarity scores between user queries and recipes' titles, instructions, and keywords. TF-IDF matrices are utilized, and the search algorithm is tested with various queries to demonstrate functionality.
+Querying Algorithm: The system provides a search algorithm that calculates similarity scores between user queries and recipes' titles, instructions, and keywords. TF-IDF matrices are utilized, and the search algorithm is tested with various queries to demonstrate functionality.
 
-    Conclusions and Future Work: The README concludes with a summary of project outcomes, highlighting the effectiveness of leveraging original recipe text and proposing future improvements such as incorporating GloVe embeddings, LDA2Vec topic extraction, and web scraping for dynamic recipe updates.
+Conclusions and Future Work: The README concludes with a summary of project outcomes, highlighting the effectiveness of leveraging original recipe text and proposing future improvements such as incorporating GloVe embeddings, LDA2Vec topic extraction, and web scraping for dynamic recipe updates.
 
 
 ### Workflow
-    Data Preprocessing: Load the dataset, handle missing values, and remove irrelevant rows.
-    Topic Modeling: Apply LDA and NNMF algorithms to extract topics from the dataset. Perform keyword extraction using TextRank.
-    Querying Algorithm: Develop a search algorithm that calculates similarity scores between user queries and recipes' titles, instructions, and keywords.
-    Testing: Test the search algorithm with various queries and ranked query ingredients to ensure functionality.
+Data Preprocessing: Load the dataset, handle missing values, and remove irrelevant rows.
+Topic Modeling: Apply LDA and NNMF algorithms to extract topics from the dataset. Perform keyword extraction using TextRank.
+Querying Algorithm: Develop a search algorithm that calculates similarity scores between user queries and recipes' titles, instructions, and keywords.
+Testing: Test the search algorithm with various queries and ranked query ingredients to ensure functionality.
 
 
 ### Future Work
 Several enhancements and future directions have been identified for the Culinary Canvas project:
 
-    Incorporating GloVe embeddings and LDA2Vec topic extraction for improved topic modeling.
-    Implementing web scraping to dynamically update the recipe dataset and keep it current.
-    Developing a user interface to facilitate user interaction and enhance user experience.
-    Exploring dense word embeddings and semantic similarity measures to capture nuanced relationships between ingredients and recipes.
-    Expanding the scope of keywords associated with each topic to ensure comprehensive search functionality.
+Incorporating GloVe embeddings and LDA2Vec topic extraction for improved topic modeling.
+Implementing web scraping to dynamically update the recipe dataset and keep it current.
+Developing a user interface to facilitate user interaction and enhance user experience.
+Exploring dense word embeddings and semantic similarity measures to capture nuanced relationships between ingredients and recipes.
+Expanding the scope of keywords associated with each topic to ensure comprehensive search functionality.
 
 
 ### Getting Started
