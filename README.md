@@ -1,4 +1,4 @@
-# CulinaryCanvas
+# Culinary Canvas
 
 ## Overview
 
