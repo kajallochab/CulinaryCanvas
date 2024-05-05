@@ -5,7 +5,7 @@
 Culinary Canvas is an information retrieval system course project aimed at providing a recipe search algorithm. The system allows users to input a list of ingredients or categories and retrieves relevant recipes based on similarity scores calculated using TF-IDF matrices. The project utilizes topic modeling techniques such as Latent Dirichlet Allocation (LDA) and Non-negative Matrix Factorization (NNMF) for extracting topics from a dataset of recipes. Additionally, keyword extraction using TextRank is employed to summarize topics effectively.
 
 
-### How it Works
+## How it Works
 
 1. Data Preprocessing: The project begins by loading a dataset containing food ingredients and recipes. Missing values are handled, and rows containing only punctuation or numbers are dropped. Recipes with insufficient instructions are also removed.
 
